@@ -1,0 +1,8 @@
+name: 'Storage action'
+description: 'Create ContextBuddy storage if does not already exist'
+inputs:
+  user-key: 
+    required: true
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
